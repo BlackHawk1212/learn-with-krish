@@ -1,0 +1,11 @@
+{
+  "name": "exercise_1",
+  "version": "1.0.0",
+  "description": "Finding the missing value",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nimesh Mendis",
+  "license": "ISC"
+}
