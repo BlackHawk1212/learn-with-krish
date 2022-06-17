@@ -1,5 +1,5 @@
-import static com.virtusa.datastructures.heapsort.Heap.heapSort;
-import static com.virtusa.datastructures.heapsort.Heap.printArr;
+import static com.virtusa.algorithms.heapsort.Heap.heapSort;
+import static com.virtusa.algorithms.heapsort.Heap.printArr;
 
 public class Main {
     public static void main(String[] args)
