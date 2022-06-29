@@ -3,20 +3,20 @@ var net = require('net');
 var port = 42181;
 var host = '127.0.0.1';
 
-var server = net.createServer((Socket) => {
-    Socket.on('end', () => {
+var server = net.createServer((socket) => {
+    socket.on('end', () => {
         console.log('Server: Client Disconnected');
     });
 });
 
 server.on('connection', (socket) => {
-    console.log(`connected from: ${socket.remoteAddress}:${socket.remotePort}`);
+    console.log(`Connected from: ${socket.remoteAddress}:${socket.remotePort}`);
     socket.write('Hello Client');
     socket.end;
 });
 
-server.on('error', (error) => {
-    throw error;
+server.on('error', (err) => {
+    throw err;
 });
 
 server.listen(port, host);
