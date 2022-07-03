@@ -1,0 +1,14 @@
+{
+  "name": "http_keepalive",
+  "version": "1.0.0",
+  "description": "How keep alive works with HTTP in TCP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nimesh Mendis",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
