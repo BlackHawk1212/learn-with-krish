@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC 
+  "-//Hibernate/Hibernate Configuration DTD 3.0//EN" 
+  "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+  
+  <!-- 1. Database connection settings 
+  	   2. Hibernate specific configuration
+  	   3. Mapping configuration -->
+  	   
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="connection.url">jdbc:mysql://localhost/database</property>
+    <property name="connection.username">root</property>
+    <property name="connection.password">password</property>
+    
+    <property name="connection.pool_size">1</property>
+    <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+    <property name="current_session_context_class">thread</property>
+    <property name="show_sql">true</property>
+    <property name="format_sql">true</property>
+    <property name="hbm2ddl.auto">create</property>
+    
+    <mapping class="com.virtusa.hibernatedemo.entity.Product"/>
+    <!-- <mapping class="com.virtusa.hibernatedemo.entity.Person"/> -->
+    <!-- <mapping class="com.virtusa.hibernatedemo.entity.Employee"/> -->
+    <!-- <mapping class="com.virtusa.hibernatedemo.entity.Developer"/> -->
+    <!-- <mapping class="com.virtusa.hibernatedemo.entity.Tester"/> -->
+    <!-- <mapping class="com.virtusa.hibernatedemo.entity.Mobile"/> -->
+    <!-- <mapping class="com.virtusa.hibernatedemo.entity.Battery"/> -->
+    
+  </session-factory>
+</hibernate-configuration>
