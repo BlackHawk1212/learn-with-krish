@@ -1,0 +1,7 @@
+> Go to the Project Directory
+> mvn clean install (to install the project)
+> docker build -t springbootdocker . (download docker image)
+> docker images (see docker images)
+> docker run -p 8080:8080 springbootdocker
+> docker ps -aq (to get the hash container)
+> docker rm <hash> (to remove the container)
