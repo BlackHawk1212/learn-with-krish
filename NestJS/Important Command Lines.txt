@@ -1,0 +1,37 @@
+--- STEPS TO CREATE A NestJS PROJECT ---
+
+> Before you create NestJS project you have to install NodeJS
+
+> Type on cmd "node -v" before you install node
+
+> Create a directory
+	> Open cmd on that directory and type "npm i -g @nestjs/cli"
+	> You can check version of Nest by typing "nest --version"
+	> To create a project type "nest new employee-service"
+	> select npm
+	> Go to project directory and type "code ." to project open with VS Code
+	> YOU ARE GOOD TO GO
+
+> Type "npm run start:dev" to run the project
+
+
+--- STEPS TO CREATE MODULES, CONTROLLERS and SERVICES ---
+
+> Module
+	> You have to direct to src module (to create employees directory)
+	> Open terminal and type "nest g module employees"	(g means generate)
+> Controller
+	> scr directory open terminal
+	> type "nest g controller employees"	--> Generates .spec file
+> Service
+	> scr directory open terminal
+	> type "nest g service employees --no-spec"	--> No .spec file Generates
+
+
+--- CHECK THE LIST OF EMPLOYEES ---
+
+> Open Insomnia
+
+> Create GET HTTP request 
+
+> Type "http://localhost:3000/employees" and click on Send
