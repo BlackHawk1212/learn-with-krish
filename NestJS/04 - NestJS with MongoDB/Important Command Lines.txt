@@ -1,0 +1,2 @@
+--- INSTALL MONGO ---
+> npm i @nestjs/mongoose mongoose
