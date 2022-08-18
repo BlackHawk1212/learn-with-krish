@@ -1,0 +1,3 @@
+--- INSTALL THESE DEPENDENCIES ---
+> npm i class-validator class-transformer
+> nest g pipe EmployeeTierValidation --no-spec
