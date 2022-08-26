@@ -1,0 +1,3 @@
+# Delete a Process
+netstat -ano | findstr <Port Number>
+taskkill /F /PID <Process ID>
