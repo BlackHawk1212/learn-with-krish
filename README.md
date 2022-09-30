@@ -9,4 +9,6 @@
 
 ** Spring Boot Repo - https://github.com/BlackHawk1212/Spring-Boot
 
-** Java Full Stack - https://github.com/BlackHawk1212/Java-Full-Stack
+** Java Full Stack ---- Trainer - Revathi Gunasekaran (Lead Consultant - Business Operations) https://github.com/BlackHawk1212/Java-Full-Stack
+
+** React - https://github.com/BlackHawk1212/React
